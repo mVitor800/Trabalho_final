@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+.form{
+    width: 500px;
+    height: 1;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.caixa{
+    background-color: white;
+    box-shadow: 1px 1px 5px #ccc ;
+    padding: 30px;
+    border-radius: 5px;
+    height:400px ;
+}
+
+.img{
+    height: 80px;
+    margin: 10px 180px;
+}
+
+.t1{
+    text-align: center;
+
+}
+
+#campos{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+#campos>input{
+    width: 300px;
+    height: 30px;
+}
+
+.botao>button{
+    margin-left: 60px;
+    margin-top: 10px;
+    width: 300px;
+    height: 30px;
+}
